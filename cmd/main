@@ -1,6 +1,9 @@
 package main
 
-import "log"
+import (
+	"github.com/Ownax-vit/simpeRestGo"
+	"log"
+)
 
 func main() {
 	srv := new(todo.Server)
